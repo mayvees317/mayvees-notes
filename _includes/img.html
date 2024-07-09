@@ -1,0 +1,15 @@
+{% capture srcset %}
+	{% for i in resized %}
+    /{{ i.path }} {{ i.width }}w,
+	{% endfor %}
+{% endcapture %}
+
+{% if resized %}
+{% assign smallest = resized | sort: 'width' | first %}
+{% endif %}
+
+{% if smallest %}
+<img width="100%" src="/{{ smallest.path }}" alt="{{ alt }}" data-srcset="{{ srcset | strip_newlines }}" class="blur-up lazyautosizes lazyload"> 
+{% else %}
+<img width="100%" src="/{{ path }}" alt="{{ alt }}" data-srcset="{{ srcset | strip_newlines }}" class="blur-up lazyautosizes lazyload"> 
+{% endif %}

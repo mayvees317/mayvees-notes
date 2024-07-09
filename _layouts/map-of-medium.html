@@ -1,0 +1,58 @@
+---
+title: Map of Medium
+layout: fullscreen
+max_width: false
+---
+
+{% assign map   = site.data[page.datafile] %}
+
+<section class="map-of-medium">
+	<div class="row justify-content-center">
+		<div class="col-12">
+		{% include header_fullscreen.html %}
+ 
+		{{content}}
+		</div>
+	</div>
+
+	<div class="row justify-content-center">
+
+		{% for tag in map['primary'] %}
+			<div class="col-4">
+				<p>
+					<h2><a href="https://medium.com/tag/{{tag}}/top/year" target="map">{{map['list'][tag]['name']}}</a></h2>
+					{% if map['list'][tag]['children'] %}
+						<ul style="padding-top: 0; paddings-bottom: 1em; padding-left: 20px;">
+						{% for child_tag in map['list'][tag]['children'] %}
+							<li>
+								<strong>
+									<a href="https://medium.com/tag/{{child_tag}}/top/year" target="map">
+									{{map['list'][child_tag]['name']}}</a>
+								</strong>
+								<div style="margin-bottom: 1em;">
+									{% if map['list'][child_tag]['children'] %}
+										<div class="small">
+											{% for gchild_tag in map['list'][child_tag]['children'] %}
+												<a href="https://medium.com/tag/{{gchild_tag}}/top/year" target="map">{{map['list'][gchild_tag]['name']}}</a> 
+											{% endfor %}
+										</div>
+									{% endif %}
+									{% if map['list'][child_tag]['publications'] %}
+										<div class="small" style="margin-bottom: 1em;">
+											Publications: 
+											{% for pub in map['list'][child_tag]['publications'] %}
+												<a href="{{pub['url']}}" target="map">{{pub['name']}}</a> 
+											{% endfor %}
+										</div>
+									{% endif %}
+									</div>
+							</li>
+						{% endfor %}
+						</ul>
+					{% endif %}
+				</p>
+			</div>
+		{% endfor %}
+
+	</div>
+</section>

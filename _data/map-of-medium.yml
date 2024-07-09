@@ -1,0 +1,2011 @@
+'primary':
+  - 'life'
+  - 'media'
+  - 'society'
+  - 'technology'
+  - 'work'
+  - 'world'
+
+'list':
+
+  'life':
+    name: 'Life'
+    children: 
+      - 'family'
+      - 'health'
+      - 'home'
+      - 'life-lessons'
+      - 'personal-development'
+      - 'personal-essay'
+      - 'pets'
+      - 'relationships'
+
+  'media':
+    name: 'Media'
+    children:
+      - 'art'
+      - 'gaming'
+      - 'humor'
+      - 'movies'
+      - 'music'
+      - 'news'
+      - 'photography'
+      - 'podcasts'
+      - 'tv'
+      - 'writing'
+
+  'society': 
+    name: 'Society'
+    children:
+      - 'beauty'
+      - 'culture'
+      - 'disability'
+      - 'drugs'
+      - 'economics'
+      - 'education'
+      - 'equality'
+      - 'fashion'
+      - 'finance'
+      - 'language'
+      - 'law'
+      - 'leadership'
+      - 'logistics'
+      - 'philosophy'
+      - 'politics'
+      - 'psychology'
+      - 'race'
+      - 'religion'
+      - 'sexuality'
+      - 'social-media'
+      - 'sports'
+
+  'technology': 
+    name: 'Technology'
+    aliases: ['tech']
+    children:
+      - 'artificial-intelligence'
+      - 'blockchain'
+      - 'data-science'
+      - 'gadgets'
+      - 'makers'
+      - 'programming'
+      - 'programming-languages'
+      - 'security'
+      - 'tech-companies'
+
+  'work': 
+    name: 'Work'
+    children: 
+      - 'business'
+      - 'design'
+      - 'devops'
+      - 'freelancing'
+      - 'marketing'
+      - 'product-management'
+      - 'remote-work'
+
+  'world': 
+    name: 'World'
+    children: 
+      - 'cities'
+      - 'nature'
+      - 'travel'
+      - 'pandemic'
+      - 'science'
+
+
+
+
+
+
+
+
+  'design': 
+    name: 'Design'
+    children: 
+      - 'accessibility'
+      - 'design-thinking'
+      - 'inclusive-design'
+      - 'product-design'
+      - 'ui'
+      - 'ux'
+      - 'visual-design'
+    publications: 
+      - 'user-experience-design-1':
+        name: 'UX Collective'
+        url: 'https://medium.com/user-experience-design-1/'
+        submissions: 'https://medium.com/user-experience-design-1/why-and-how-to-publish-with-the-ux-collective-8c8d1dd018a7'
+
+
+  'accessibility': 
+    name: 'Accessibility'
+  
+  'design-thinking':
+    name: 'Design Thinking'
+
+  'inclusive-design':
+    name: 'Inclusive Design'
+
+  'product-design':
+    name: 'Product Design'
+
+  'ui': 
+    name: 'User Interface'
+
+  'ux': 
+    name: 'User Experience'
+
+  'visual-design': 
+    name: 'Visual Design'
+
+  'devops': 
+    name: 'Dev Ops'
+    children: 
+      - 'aws'
+      - 'docker'
+      - 'kubernetes'
+
+  'aws': 
+    name: 'Amazon Web Services'
+    aliases: ['amazon-web-services']
+
+  'docker': 
+    name: 'Docker'
+
+  'kubernetes': 
+    name: 'Kubernetes'
+
+  'investing': 
+    name: 'Investing'
+
+  'freelancing': 
+    name: 'Freelancing'  
+    children: 
+      - 'client-relationship'
+      - 'client-management'
+      - 'client-services'
+      - 'freelance'  
+      - 'freelancers'
+      - 'freelancing-tips'
+      - 'freelance-writing'
+
+  'client-relationship':
+    name: 'Client Relationship'
+
+  'client-management':
+    name: 'Client Management'
+
+  'client-services':
+    name: 'Client Servicess'
+
+  'freelance':
+    name: 'Freelance'
+
+  'freelancers':
+    name: 'Freelancers'
+
+  'freelance-tips':
+    name: 'Freelance Tips'
+
+  'freelance-writing':
+    name: 'Freelance Writing'
+
+  'marketing': 
+    name: 'Marketing'
+    children:
+      - 'advertising'
+      - 'branding'
+      - 'brand-strategy'
+      - 'content-marketing'
+      - 'content-strategy'
+      - 'digital-marketing'
+      - 'marketing-strategies'
+      - 'seo'
+      - 'social-media-marketing'
+
+  'advertising':
+    name: 'Advertising'
+
+  'branding':
+    name: 'Branding'
+
+  'brand-strategy':
+    name: 'Brand Strategy'
+
+  'content-marketing':
+    name: 'Content Marketing'
+
+  'content-strategy':
+    name: 'Content Strategy'
+
+  'digital-marketing': 
+    name: 'Digital Marketing'
+
+  'marketing-strategies':
+    name: 'Marketing Strategies'
+
+  'seo': 
+    name: 'SEO'
+
+  'social-media-marketing':
+    name: 'Social Media Marketing'
+
+  'product-management': 
+    name: 'Product Management'
+    children: 
+      - 'innovation'
+      - 'product'
+      - 'product-development'
+      - 'product-manager'
+
+  'business': 
+    name: 'Business'
+    children:
+      - 'startups'
+      - 'entrepreneurship'
+      - 'venture-capital'
+    publications:
+      - 'entrepreneur-s-handbook':
+        name: "Entrepreneur's Handbook"
+        url: 'https://medium.com/entrepreneur-s-handbook'
+        submissions: 'https://medium.com/entrepreneur-s-handbook/write-for-entrepreneurs-handbook-7f9380ee9b63'
+      - 'swlh':
+        name: 'The Startup'
+        url: 'https://medium.com/swlh'
+        submissions: 'https://medium.com/swlh/start-it-up-submissions-3e8ed27bcd3e'
+
+  'startups': 
+    name: 'Startups'
+
+  'entrepreneurship': 
+    name: 'Entrepreneurship'
+
+  'venture-capital': 
+    name: 'Venture Capital'
+
+  'remote-work': 
+    name: 'Remote Work'
+    children: 
+      - 'distributed-teams'
+      - 'future-of-work'
+      - 'remote-team'
+      - 'remote-working'
+      - 'work-from-home' 
+
+  'distributed-teams':
+    name: 'Distributed Teams'
+
+  'future-of-work':
+    name: 'Future of Work'
+
+  'remote-team':
+    name: 'Remote Team'
+
+  'remote-working':
+    name: 'Remote Working'
+
+  'work-from-home':
+    name: 'Work From Home'
+
+
+  'beauty': 
+    name: 'Beauty'
+    children:
+      - 'beauty-tips'
+      - 'hair'
+      - 'makeup'
+      - 'skincare'
+
+  'culture':
+    name: 'Culture'
+    children: 
+      - 'cultural-heritage'
+      - 'history'
+      - 'holidays'
+      - 'museums'
+      - 'norms'
+      - 'tradition'
+
+  'cultural-heritage':
+    name: 'Cultural Heritage'
+
+  'history':
+    name: 'History'
+
+  'holidays':
+    name: 'Holidays'
+
+  'museums':
+    name: 'Museums'
+
+  'norms':
+    name: 'Norms'
+
+  'tradition':
+    name: 'Tradition'
+
+  'beauty-tips':
+    name: 'Beauty Tips'
+
+  'hair':
+    name: 'Hair'
+
+  'makeup':
+    name: 'Makeup'
+
+  'skincare':
+    name: 'Skincare'
+
+
+  'disability': 
+    name: 'Disability'
+    children: 
+      - 'accessibility'
+      - 'blindness'
+      - 'deaf'
+      - 'disability-rights'
+
+  'blindness':
+    name: 'Blindness'
+
+  'deaf':
+    name: 'Deaf'
+    aliases: ['hearing-loss']
+
+  'disability-rights':
+    name: 'Disability Rights'
+
+  'drugs': 
+    name: 'Drugs'
+    children: 
+      - 'addiction'
+      - 'marijuana'
+      - 'opioids'
+      - 'pharmaceutical'
+      - 'psychedelics'
+
+  'addiction': 
+    name: 'Addiction'
+
+  'marijuana': 
+    name: 'Marijuana'
+
+  'opioids': 
+    name: 'Opioids'
+
+  'pharmaceutical':
+    name: 'Pharmaceuticals'
+    aliases: ['pharma', 'pharmaceuticals-industry']
+
+  'psychedelics': 
+    name: 'Psychedelics'
+
+  'education': 
+    name: 'Education'
+    children: 
+      - 'college'
+      - 'learning'
+      - 'school'
+      - 'students'
+      - 'student-loans'
+      - 'study'
+      - 'study-abroad'
+      - 'study-tips'
+      - 'teaching'
+
+  'college':
+    name: 'College'
+    aliases: ['university']
+
+  'learning':
+    name: 'Learning'
+
+  'school':
+    name: 'School'
+
+  'students':
+    name: 'Students'
+
+  'student-loans':
+    name: 'Student Loans'
+
+  'study':
+    name: 'Study'
+
+  'study-abroad':
+    name: 'Study Abroad'
+
+  'study-tips':
+    name: 'Study Tips'
+
+  'teaching':
+    name: 'Teaching'
+
+  'math': 
+    name: 'Math'
+
+  'economics': 
+    name: 'Economics'
+    children: 
+      - 'basic-income'
+      - 'debt'
+      - 'economy'
+      - 'inflation'
+
+  'basic-income': 
+    name: 'Basic Income'
+
+  'debt':
+    name: 'Debt'
+
+  'economy': 
+    name: 'Economy'    
+
+  'inflation':
+    name: 'Inflation'
+
+  'equality': 
+    name: 'Equality'
+    children: 
+      - 'discrimination'
+      - 'diversity'
+      - 'feminism'
+      - 'inclusion'
+      - 'lgbtqia'
+      - 'race'
+      - 'racism'
+      - 'womens-rights'
+
+  'discrimination':
+    name: 'Discrimination'
+
+  'diversity':
+    name: 'Diversity'
+
+  'feminism':
+    name: 'Feminism'
+    aliases: ['women']
+
+  'inclusion':
+    name: 'Inclusion'
+
+  'lgbtqia': 
+    name: 'LGBTQIA+'
+    aliases: ['lgbt', 'lgbtq']
+    children:
+      - 'gender-identity'
+      - 'nonbinary'
+      - 'queer'
+      - 'transgender'
+
+  'gender-identity':
+    name: 'Gender Identity'
+
+  'nonbinary':
+    name: 'Nonbinary'
+
+  'queer':
+    name: 'Queer'
+
+  'transgender':
+    name: 'Transgender'
+
+  'fashion':
+    name: 'Fashion'
+    children:
+      - 'clothing'
+      - 'fashion-design'
+      - 'fashion-trends'
+      - 'style'
+
+  'clothing':
+    name: 'Clothing'
+
+  'fashion-design':
+    name: 'Fashion Design'
+
+  'fashion-trends':
+    name: 'Fashion Trends'
+
+  'style': 
+    name: 'Style'
+
+  'race': 
+    name: 'Race'
+    children:
+      - 'anti-racism'
+      - 'black-lives-matter'
+      - 'racism'
+      - 'white-privilege'
+      - 'white-supremacy'
+
+  'anti-racism':
+    name: 'Anti-Racism'
+
+  'black-lives-matter':
+    name: 'Black Lives Matter'
+
+  'racism': 
+    name: 'Racism'
+
+  'white-privilege':
+    name: 'White Privilege'
+
+  'white-supremacy':
+    name: 'White Supremacy'
+
+  'womens-rights':
+    name: "Women's Rights"
+
+
+  'religion': 
+    name: 'Religion'
+    children: 
+      - 'buddhism'
+      - 'christianity'
+      - 'hinduism'
+      - 'islam'
+      - 'judaism'
+      - 'spirituality'
+      - 'zen'
+
+  'buddhism':
+    name: 'Buddhism'
+
+  'christianity':
+    name: 'Christianity'
+
+  'hinduism':
+    name: 'Hinduism'
+
+  'islam':
+    name: 'Islam'
+
+  'judaism':
+    name: 'Judaism'
+
+  'zen':
+    name: 'Zen'
+
+  'sports': 
+    name: 'Sports'
+    children:
+      - 'baseball'
+      - 'basketball'
+      - 'football'
+
+  'baseball': 
+    name: 'Baseball'
+    aliases: ['mlb', 'major-league-baseball']
+
+  'basketball': 
+    name: 'Basketball'
+    aliases: ['nba']
+
+  'football': 
+    name: 'Football'
+
+  'spirituality': 
+    name: 'Spirituality'
+    children:
+      - 'astrology'
+
+  'astrology': 
+    name: 'Astrology'
+
+  'logistics': 
+    name: 'Logistics'
+    children: 
+      - 'procurement'
+      - 'public-transit'
+      - 'self-driving-cars'
+      - 'shipping'
+      - 'supply-chain'
+      - 'transportation'
+      - 'trucking'
+
+  'procurement':
+    name: 'Procurement'
+
+  'public-transit':
+    name: 'Public Transit'
+
+  'self-driving-cars':
+    name: 'self-driving-cars'
+
+  'shipping':
+    name: 'shipping'
+
+  'supply-chain':
+    name: 'supply-chain'
+
+  'transportation':
+    name: 'transportation'
+
+  'trucking':
+    name: 'trucking'
+
+  'innovation':
+    name: 'Innovation'
+
+  'gun-control': 
+    name: 'Gun Control'
+
+  'immigration': 
+    name: 'Immigration'
+
+  'finance': 
+    name: 'Finance'
+    children: 
+      - 'investing'
+      - 'money'
+      - 'retirement'
+      - 'philanthropy'
+      - 'real-estate-investments'
+      - 'retirement-planning'
+      - 'stocks'
+      - 'stock-market'
+      - 'trading'
+
+  'real-estate-investments':
+    name: 'Real Estate Investments'
+
+  'retirement':
+    name: 'Retirement'
+
+  'retirement-planning':
+    name: 'Retirement Planning'
+
+  'law': 
+    name: 'Law'
+    children:
+      - 'justice'
+      - 'criminal-justice'
+      - 'social-justice'
+
+  'justice':
+    name: 'Justice'
+
+  'criminal-justice':
+    name: 'Criminal Justice'
+
+  'social-justice':
+    name: 'Social Justice'
+
+  'language': 
+    name: 'Language'
+    children:
+      - 'arabic'
+      - 'english-language'
+      - 'english-learning'
+      - 'foreign-language'
+      - 'french'
+      - 'german-language'
+      - 'hindi'
+      - 'language-learning'
+      - 'linguistics'
+      - 'mandarin'
+      - 'portuguese'
+      - 'spanish'
+
+  'arabic':
+    name: 'Arabic'
+
+  'english-language':
+    name: 'English Language'
+
+  'english-learning':
+    name: 'English Learning'
+    aliases: ['esl']
+
+  'foreign-language':
+    name: 'Foreign Language'
+
+  'french':
+    name: 'French'
+
+  'german-language':
+    name: 'German'
+
+  'hindi':
+    name: 'Hindi'
+
+  'language-learning':
+    name: 'Language Learning'
+
+  'linguistics':
+    name: 'Linguistics'
+
+  'mandarin':
+    name: 'Mandarin'
+
+  'portuguese':
+    name: 'Portuguese'
+
+  'spanish':
+    name: 'Spanish'
+
+  'leadership': 
+    name: 'Leadership'
+    children:
+      - 'executive-coaching'
+      - 'leadership-coaching'
+      - 'leadership-development'
+      - 'leadership-skills'
+      - 'management'
+
+  'executive-coaching':
+    name: 'Executive Coaching'
+
+  'leadership-coaching':
+    name: 'Leadership Coaching'
+
+  'leadership-development':
+    name: 'Leadership Development'
+
+  'leadership-skills':
+    name: 'Leadership Skills'
+
+  'management':
+    name: 'Management'
+
+  'money': 
+    name: 'Money'
+
+  'philanthropy':
+    name: 'Philanthropy'
+    aliases: ['charity']
+
+  'security':
+    name: 'Security'
+    children:
+      - 'data-security'
+      - 'encryption'
+      - 'infosec'
+      - 'passwords'
+      - 'privacy'
+      - 'cybersecurity'
+
+  'data-security':
+    name: 'data-security'
+
+  'encryption':
+    name: 'Encryption'
+
+  'infosec':
+    name: 'Infosec'
+
+  'cybersecurity':
+    name: 'Cybersecurity'
+
+  'passwords':
+    name: 'Passwords'
+
+  'privacy':
+    name: 'Privacy'
+
+  'sexuality': 
+    name: 'Sexuality'
+    children:
+      - 'bdsm'
+      - 'erotica'
+      - 'kink'
+      - 'pg13'
+      - 'sex'
+
+  'bdsm':
+    name: 'BDSM'
+
+  'kink':
+    name: 'Kink'
+
+  'pg13':
+    name: 'PG-13'
+
+  'sex':
+    name: 'Sex'
+
+  'erotica':
+    name: 'Erotica'
+
+  'social-media': 
+    name: 'Social Media'
+    children:
+      - 'facebook'
+      - 'instagram'
+      - 'tik-tok'
+      - 'twitter'
+
+  'facebook':
+    name: 'Facebook'
+
+  'instagram':
+    name: 'Instagram'
+
+  'tik-tok':
+    name: 'Tik Tok'
+
+  'twitter':
+    name: 'Twitter'
+
+
+
+
+  'family': 
+    name: 'Family'
+    children:
+      - 'children'
+      - 'motherhood'
+      - 'parenting'
+      - 'pregnancy'
+      - 'seniors'
+
+  'health': 
+    name: 'Health'
+    children:
+      - 'aging'
+      - 'fitness'
+      - 'food'
+      - 'healthcare'
+      - 'lifestyle'
+      - 'weight-loss'
+
+  'aging':
+    name: 'Aging'
+
+  'fitness': 
+    name: 'Fitness'
+
+  'food': 
+    name: 'Food'
+
+  'healthcare': 
+    name: 'Healthcare'
+
+  'lifestyle':
+    name: 'Lifestyle'
+
+  'weight-loss': 
+    name: 'Weight Loss'
+
+
+  'home':
+    name: 'Home'
+    children: 
+      - 'architecture'
+      - 'home-decor'
+      - 'home-improvement'
+      - 'house'
+      - 'interior-design'
+      - 'real-estate'
+      - 'rental-property'
+      - 'vacation-rental'
+
+  'architecture':
+    name: 'Architecture'
+
+  'home-decor':
+    name: 'Home Decor'
+
+  'home-improvement':
+    name: 'Home Improvement'
+
+  'house':
+    name: 'house'
+
+  'interior-design':
+    name: 'Interior Design'
+
+  'real-estate':
+    name: 'Real Estate'
+
+  'rental-property':
+    name: 'Rental Property'
+
+  'vacation-rental':
+    name: 'Vacation Rental'
+
+
+  'children':
+    aliases: ['kids']
+    name: 'Children'
+
+  'seniors':
+    name: 'Seniors'
+
+  'motherhood':
+    name: 'Motherhood'
+
+  'parenting': 
+    name: 'Parenting'
+
+  'pregnancy':
+    name: 'Pregnancy'
+
+  'personal-development': 
+    name: 'Personal Development'
+    children: 
+      - 'coaching'
+      - 'counseling'
+      - 'mental-health'
+      - 'mindfulness'
+      - 'morning-routines'
+      - 'pomodoro-technique'
+      - 'productivity'
+      - 'self'
+      - 'self-improvement'
+      - 'self-awareness'
+      - 'therapy'
+    publications: 
+      - 'better-humans':
+        name: 'Better Humans'
+        url: 'https://medium.com/better-humans'
+        submissions: 'https://medium.com/better-humans/write-for-better-humans-4c6c9884fc08'
+
+  'self':
+    name: 'Self'
+
+  'self-improvement':
+    name: 'Self-Improvement'
+
+  'morning-routines':
+    name: 'Morning Routines'
+
+  'pomodoro-technique':
+    name: 'Pomodoro Technique'
+
+  'pets': 
+    name: 'Pets'
+    children:
+      - 'cats'
+      - 'dogs'
+      - 'dog-training'
+      - 'pet-care'
+
+  'cats':
+    name: 'Cats'
+
+  'dogs':
+    name: 'Dogs'
+
+  'dog-training':
+    name: 'Dog Training'
+
+  'pet-care':
+    name: 'Pet Care'
+
+  'philosophy': 
+    name: 'Philosophy'
+    children:
+      - 'atheism'
+      - 'consciousness'
+      - 'epistemology'
+      - 'ethics'
+      - 'existentialism'
+      - 'metaphysics'
+      - 'morality'
+      - 'nihilism'
+      - 'philosophy-of-mind'
+      - 'stoicism'
+
+  'atheism':
+    name: 'Atheism'
+
+  'consciousness':
+    name: 'Consciousness'
+
+  'epistemology':
+    name: 'Epistemology'
+
+  'ethics':
+    name: 'Ethics'
+
+  'existentialism':
+    name: 'Existentialism'
+
+  'metaphysics':
+    name: 'Metaphysics'
+
+  'morality':
+    name: 'Morality'
+
+  'nihilism':
+    name: 'Nihilism'
+
+  'philosophy-of-mind':
+    name: 'Philosophy of Mind'
+
+  'stoicism':
+    name: 'Stoicism'
+
+  'psychology': 
+    name: 'Psychology'
+    children:
+      - 'anxiety'
+      - 'cognitive-psychology'
+      - 'psychiatry'
+      - 'psychotherapy'
+      - 'stress'
+
+  'anxiety':
+    name: 'Anxiety'
+
+  'cognitive-psychology':
+    name: 'Cognitive Psychology'
+    aliases: ['cbt']
+
+  'psychiatry':
+    name: 'Psychiatry'
+
+  'psychoherapy':
+    name: 'Psychotherapy'
+
+  'stress':
+    name: 'Stress'
+
+  'mental-health': 
+    name: 'Mental Health'
+    children:
+      - 'depression'
+
+  'life-lessons':
+    name: 'Life Lessons'
+    children:
+      - 'death'
+      - 'death-and-dying'
+      - 'failure'
+      - 'grief'
+      - 'loss'
+      - 'trauma'
+
+  'death':
+    name: 'Death'
+
+  'death-and-dying':
+    name: 'Death And Dying'
+
+  'failure':
+    name: 'Failure'
+
+  'grief':
+    name: 'Grief'
+
+  'loss':
+    name: 'Loss'
+
+  'trauma':
+    name: 'Trauma'
+
+  'mindfulness': 
+    name: 'Mindfulness'
+
+  'personal-essay':
+    name: 'Personal Essay'
+    children: 
+      - 'diary'
+      - 'journaling'
+      - 'memoir'
+      - 'this-happened-to-me'
+
+  'diary':
+    name: 'Diary'
+
+  'journaling':
+    name: 'Journaling'
+
+  'memoir':
+    name: 'Memoir'
+
+  'this-happened-to-me': 
+    name: 'This Happened To Me'
+
+  'relationships': 
+    name: 'Relationships'
+    children:
+      - 'dating'
+      - 'dating-advice'
+      - 'divorce'
+      - 'friendship'
+      - 'love'
+      - 'online-dating'
+    publications:
+      - 'hello-love':
+        name: 'Hello, Love'
+        url: 'https://medium.com/hello-love'
+        submissions: 'https://medium.com/hello-love/announcing-hello-love-a-new-publication-on-medium-highlighting-relationships-and-love-1799364244ec'
+
+  'dating': 
+    name: 'Dating'
+
+  'dating-advice':
+    name: 'Dating Advice'
+
+  'divorce':
+    name: 'Divorce'
+
+  'friendship': 
+    name: 'Friendship'
+
+  'love': 
+    name: 'Love'
+
+  'online-dating':
+    name: 'Online Dating'
+
+  'productivity': 
+    name: 'Productivity'
+
+  'self-awareness': 
+    name: 'Self-Awareness'
+
+  'depression':
+    name: 'Depression'
+
+  'therapy':
+    name: 'Therapy'
+
+  'counseling':
+    name: 'Counseling'
+
+
+
+
+
+
+
+  'blockchain': 
+    name: 'Blockchain'
+    children: 
+      - 'bitcoin'
+      - 'cryptocurrency'
+      - 'defi'
+      - 'ethereum'
+      - 'nft'
+      - 'web3'
+
+  'bitcoin':
+    name: 'Bitcoin'
+
+  'cryptocurrency': 
+    aliases: ['crypto']
+    name: 'Cryptocurrency'
+
+  'defi': 
+    aliases: ['decentralized-finance']
+    name: 'Decentralized Finance'
+
+  'ethereum': 
+    name: 'Ethereum'
+
+  'nft': 
+    name: 'NFT'
+
+  'web3': 
+    name: 'Web3'
+
+
+  'artificial-intelligence': 
+    name: 'Artificial Intelligence'
+    children:
+      - 'ai'
+      - 'conversational-ai'
+      - 'data-analysis'
+      - 'deep-learning'
+      - 'generative-art'
+      - 'large-language-models'
+      - 'machine-learning'
+      - 'nlp'
+      - 'voice-assistant'
+
+  'ai':
+    name: 'AI'
+
+  'conversational-ai': 
+    name: 'Conversational AI'
+
+  'data-analysis': 
+    name: 'Data Analysis'
+    alisases: ['data-analytics']
+
+  'deep-learning': 
+    name: 'Deep Learning'
+
+  'large-language-models': 
+    name: 'Large Language Models'
+
+  'machine-learning': 
+    name: 'Machine Learning'
+
+  'nlp': 
+    name: 'NLP'
+
+  'voice-assistant':
+    name: 'Voice Assistant'
+
+  'programming':
+    name: 'Programming'
+    children: 
+      - 'coding'
+      - 'dev-mobile'
+      - 'frontend'
+      - 'software-development'
+      - 'software-engineering'
+      - 'web-development'
+
+  'software-development': 
+    name: 'Software Development'
+
+  'coding': 
+    name: 'Coding'
+
+  'dev-mobile': 
+    name: 'Mobile Development'
+    children: 
+      - 'android'
+      - 'iOS'
+      - 'mobile'
+      - 'mobile-app-development'
+
+  'mobile':
+    name: 'Mobile'
+
+  'mobile-app-development':
+    name: 'Mobile App Development'
+
+  'android': 
+    name: 'Android'
+    aliases: ['android-development']
+
+  'ios': 
+    name: 'iOS'
+    aliases: ['ios-app-development']
+
+  'frontend':
+    name: 'Frontend Engineering'
+    aliases: ['frontend-engineering']
+
+  'software-engineering': 
+    name: 'Software Engineering'
+
+  'web-devleopment': 
+    name: 'Web Development'
+
+  'programming-languages': 
+    name: 'Programming Languages'
+    children:
+      - 'angular'
+      - 'css'
+      - 'html'
+      - 'java'
+      - 'javascript'
+      - 'nodejs'
+      - 'python'
+      - 'react'
+      - 'ruby'
+      - 'typescript'
+    publications:
+      - 'gitconnected':
+        name: 'Level Up Coding'
+        url: 'https://medium.com/gitconnected'
+        submissions: 'https://medium.com/gitconnected/how-to-get-published-on-gitconnected-dac547ef556b'
+      - 'javascript-in-plain-english':
+        name: "Javascript in Plain English"
+        url: 'https://medium.com/javascript-in-plain-english/'
+        submissions: 'https://medium.com/javascript-in-plain-english/https-medium-com-javascript-in-plain-english-join-our-team-b0854ead7d14'
+
+  'angular':
+    name: 'Angular'      
+
+  'css':
+    name: 'CSS'      
+
+  'html':
+    name: 'HTML'      
+
+  'java':
+    name: 'Java'      
+
+  'javascript':
+    name: 'Javascript'      
+
+  'nodejs':
+    name: 'Node.js'      
+
+  'python':
+    name: 'Python'      
+
+  'react':
+    name: 'React'      
+
+  'ruby':
+    name: 'Ruby'      
+
+  'typescript':
+    name: 'Typescript'     
+
+  'tech-companies':
+    name: 'Tech Companies'
+    children:
+      - 'amazon'
+      - 'apple'
+      - 'facebook'
+      - 'google'
+      - 'microsoft'
+      - 'twitter'
+
+  'amazon':
+    name: 'Amazon'
+
+  'apple':
+    name: 'Apple'
+
+  'google':
+    name: 'Google'
+
+  'microsoft':
+    name: 'Microsoft'
+
+  'data-science': 
+    name: 'Data Science'
+    children: 
+      - 'data'
+      - 'data-visualization'
+    publications:
+      - 'towards-data-science':
+        name: 'Towards Data Science'
+        url: 'https://medium.com/towards-data-science/'
+        submissions: 'https://medium.com/towards-data-science/questions-96667b06af5'
+
+  'data': 
+    name: 'Data'
+
+  'data-visualization': 
+    name: 'Data Visualization'
+
+  'gadgets': 
+    name: 'Gadgets'
+    children:
+      - 'ebook'
+      - 'ipad'
+      - 'iot'
+      - 'smartphones'
+      - 'smart-home'
+      - 'wearables'
+
+  'ebook':
+    name: 'eBook'
+
+  'ipad': 
+    name: 'iPad'
+
+  'iot':
+    name: 'Internet of Things'
+    aliases: ['internet-of-things']
+
+  'smartphones': 
+    name: 'Smartphones'
+
+  'smart-home':
+    name: 'Smart Home'
+
+  'wearables':
+    name: 'Wearables'
+
+  'makers': 
+    name: 'Makers'
+    children: 
+      - 'arduino'
+      - '3-d-printing'
+      - 'diy'
+      - 'raspberry-pi'
+
+  'arduino':
+    name: 'Arduino'
+
+  '3-d-printing':
+    name: '3D Printing'
+
+  'diy':
+    name: 'DIY'
+
+  'raspberry-pi':
+    name: 'Raspberry PI'
+
+  'art': 
+    name: 'Art'
+    children:
+      - 'contemporary-art'
+      - 'comics'
+      - 'creativity'
+      - 'drawing'
+      - 'fine-art'
+      - 'generative-art'
+      - 'illustration'
+      - 'painting'
+      - 'portraits'
+      - 'storytelling'
+      - 'street-art'
+
+  'comics':
+    name: 'Comics'
+
+  'contemporary-art':
+    name: 'Contemporary Art'
+
+  'creativity': 
+    name: 'Creativity'
+
+  'drawing':
+    name: 'Drawing'
+
+  'fine-art':
+    name: 'Fine Art'
+
+  'generative-art':
+    name: 'Generative Art'
+
+  'illustration':
+    name: 'Illustration'
+
+  'painting':
+    name: 'Painting'
+
+  'portraits':
+    name: 'Portraits'
+
+  'street-art':
+    name: 'Street Art'
+    aliases: ['graffiti']
+
+  'gaming':
+    name: 'Gaming'
+    children:
+      - 'game-design'
+      - 'game-development'
+      - 'indie-game'
+      - 'metaverse'
+      - 'nintendo'
+      - 'playstation'
+      - 'videogames'
+      - 'virtual-reality'
+      - 'xbox'
+
+  'game-design':
+    name: 'Game Design'
+
+  'game-development':
+    name: 'Game Development'
+    aliases: ['gamedev']
+    children: 
+      - 'unity'
+      - 'unreal-engine'
+
+  'indie-game':
+    name: 'Indie Game'
+
+  'metaverse':
+    name: 'Metaverse'
+
+  'nintendo':
+    name: 'Nintendo'
+
+  'playstation':
+    name: 'Playstation'
+
+  'videogames':
+    name: 'Videogames'
+
+  'virtual-reality':
+    name: 'Virtual Reality'
+    aliases: ['vr']
+
+  'xbox':
+    name: 'Xbox'
+
+  'humor': 
+    name: 'Humor'
+    children:
+      - 'comedy'
+      - 'jokes'
+      - 'satire'
+      - 'stand-up-comedy'
+
+  'comedy':
+    name: 'Comedy'
+
+  'jokes':
+    name: 'Jokes'
+
+  'satire':
+    name: 'Satire'
+
+  'stand-up-comedy':
+    name: 'Stand Up Comedy'
+
+  'writing':
+    name: 'Writing'
+    children: 
+      - '30-day-challenge'
+      - 'books'
+      - 'book-reviews'
+      - 'fiction'
+      - 'nonfiction'
+      - 'poetry'
+      - 'short-story'
+      - 'writing-prompts'
+      - 'writing-tips'
+    publications:
+      - 'books-are-our-superpower':
+        name: 'Books Are Our Superpower'
+        url: 'https://medium.com/books-are-our-superpower'
+        submissions: 'https://medium.com/books-are-our-superpower/submission-guidelines-books-are-our-superpower-abf49a475cad'
+
+  'books': 
+    name: 'Books'
+
+  '30-day-challenge':
+    name: '30 Day Challenge'
+
+  'writing-prompts':
+    name: 'Writing Prompts'
+
+  'writing-tips':
+    name: 'Writing Tips'
+
+  'book-reviews':
+    name: 'Book Reviews'
+
+  'fiction': 
+    name: 'Fiction'
+
+  'nonfiction': 
+    name: 'Nonfiction'
+
+  'movies': 
+    name: 'Movies'
+    children:
+      - 'cinema'
+      - 'film'
+      - 'filmmaking'
+      - 'movie-review'
+      - 'screenwriting'
+
+  'cinema':
+    name: 'Cinema'
+
+  'film':
+    name: 'Film'
+
+  'filmmaking':
+    name: 'Filmmaking'
+
+  'movie-review':
+    name: 'Movie Reviews'
+
+  'screenwriting':
+    name: 'Screenwriting'
+
+  'music': 
+    name: 'Music'
+    children: 
+      - 'hip-hop'
+      - 'indie'
+      - 'metal'
+      - 'pop'
+      - 'rap'
+      - 'rock'
+
+  'hip-hop':
+    name: 'Hip Hop'
+
+  'indie':
+    name: 'Indie'
+
+  'metal':
+    name: 'Metal'
+
+  'pop':
+    name: 'Pop'
+
+  'rap':
+    name: 'Rap'
+
+  'rock':
+    name: 'Rock'
+    aliases: ['rock-and-roll']
+
+  'news': 
+    name: 'News'
+    children: 
+      - 'data-journalism'
+      - 'fake-news'
+      - 'journalism'
+      - 'misinformation'
+      - 'true-crime'
+
+  'data-journalism':
+    name: 'Data Journalism'
+
+  'fake-news':
+    name: 'Fake News'
+
+  'journalism':
+    name: 'Journalism'
+
+  'misinformation':
+    name: 'Misinformation'
+
+  'politics': 
+    name: 'Politics'
+    children:
+      - 'democracy'
+      - 'elections'
+      - 'government'
+      - 'gun-control'
+      - 'immigration'
+
+  'democracy':
+    - name: 'Democracy'
+
+  'elections': 
+    name: 'Elections'
+
+  'government':
+    - name: 'Government'
+
+  'true-crime': 
+    name: 'True Crime'
+
+  'photography': 
+    name: 'Photography'
+    children:
+      - 'photography-tips'
+      - 'photos'
+      - 'photojournalism'
+      - 'street-photography'
+
+  'photography-tips':
+    name: 'Photography Tips'
+
+  'photos':
+    name: 'Photos'
+
+  'photojournalism':
+    name: 'Photojurnalism'
+
+  'street-photography':
+    name: 'Street Photography'
+
+  'podcasts': 
+    name: 'Podcasts'
+    children:
+      - 'podcasting'
+      - 'podcasting-tips'
+      - 'podcast-recommendations'
+
+  'podcasting':
+    name: 'Podcasting'
+
+  'podcasting-tips':
+    name: 'Podcasting Tips'
+
+  'podcast-recommendations':
+    name: 'Podcast Recommendations'
+
+  'poetry': 
+    name: 'Poetry'
+
+  'short-story': 
+    name: 'Short Stories'
+    aliases: 'Short Fiction'
+
+  'storytelling': 
+    name: 'Storytelling'
+
+  'tv': 
+    name: 'Television'
+    aliases: ['television']
+    children: 
+      - 'reality-tv'
+      - 'tv-reviews'
+      - 'tv-series'
+      - 'tv-shows'
+
+  'reality-tv':
+    name: 'Reality TV'
+
+  'tv-reviews':
+    name: 'TV Reviews'
+
+  'tv-series':
+    name: 'TV Series'
+
+  'tv-shows':
+    name: 'TV Shows'
+
+
+
+
+
+
+
+  'cities': 
+    name: 'Cities'
+    children: 
+      - 'abu-dhabi'
+      - 'amsterdam'
+      - 'athens'
+      - 'bangkok'
+      - 'barcelona'
+      - 'berlin'
+      - 'boston'
+      - 'buenos-aires'
+      - 'chicago'
+      - 'copenhagen'
+      - 'delhi'
+      - 'dubai'
+      - 'dublin'
+      - 'edinburgh'
+      - 'hong-kong'
+      - 'istanbul'
+      - 'lisbon'
+      - 'london'
+      - 'glasgow'
+      - 'los-angeles'
+      - 'madrid'
+      - 'melbourne'
+      - 'mexico-city'
+      - 'miami'
+      - 'montreal'
+      - 'nyc'
+      - 'paris'
+      - 'prague'
+      - 'rio-de-janeiro'
+      - 'rome'
+      - 'san-francisco'
+      - 'sydney'
+      - 'taipei'
+      - 'tel-aviv'
+      - 'tokyo'
+      - 'toronto'
+      - 'vienna'
+      - 'vancouver'
+
+  'abu-dhabi':
+    name: 'Abu Dhabi'
+
+  'amsterdam':
+    name: 'Amsterdam'
+
+  'athens':
+    name: 'Athens'
+
+  'bangkok':
+    name: 'Bangkok'
+
+  'barcelona':
+    name: 'Barcelona'
+
+  'berlin':
+    name: 'Berlin'
+
+  'boston':
+    name: 'Boston'
+
+  'buenos-aires':
+    name: 'Buenos Aires'
+
+  'chicago':
+    name: 'Chicago'
+
+  'copenhagen':
+    name: 'Copenhagen'
+
+  'delhi':
+    name: 'Delhi'
+
+  'dubai':
+    name: 'Dubai'
+
+  'dublin':
+    name: 'Dublin'
+
+  'edinburgh':
+    name: 'Edinburgh'
+
+  'hong-kong':
+    name: 'Hong Kong'
+
+  'istanbul':
+    name: 'Istanbul'
+
+  'lisbon':
+    name: 'Lisbon'
+
+  'london':
+    name: 'London'
+
+  'glasgow':
+    name: 'Glasgow'
+
+  'los-angeles':
+    name: 'Los Angeles'
+    aliases: ['la']
+
+  'madrid':
+    name: 'Madrid'
+
+  'melbourne':
+    name: 'Melbourne'
+
+  'mexico-city':
+    name: 'Mexico City'
+
+  'miami':
+    name: 'Miami'
+
+  'montreal':
+    name: 'Montreal'
+
+  'nyc':
+    name: 'New York City'
+    aliases: ['new-york-city']
+
+  'paris':
+    name: 'Paris'
+
+  'prague':
+    name: 'Prague'
+
+  'rio-de-janeiro':
+    name: 'Rio De Janeiro'
+
+  'rome':
+    name: 'Rome'
+
+  'san-francisco':
+    name: 'San Francisco'
+
+  'sydney':
+    name: 'Sydney'
+
+  'taipei':
+    name: 'Taipei'
+
+  'tel-aviv':
+    name: 'Tel Aviv'
+
+  'tokyo':
+    name: 'Tokyo'
+
+  'toronto':
+    name: 'Toronto'
+
+  'vienna':
+    name: 'Vienna'
+
+  'vancouver':
+    name: 'Vancouver'
+   
+  'nature':
+    name: 'Nature'
+    children:
+      - 'climate-change'
+      - 'conservation'
+      - 'environment'
+      - 'outdoors'
+      - 'sustainability'
+      - 'wildlife'
+
+  'climate-change': 
+    name: 'Climate Change'
+
+  'conservation':
+    name: 'Conservation'
+
+  'environment':
+    name: 'Environment'
+
+  'outdoors': 
+    name: 'Outdoors'
+
+  'sustainability':
+    name: 'Sustainability'
+
+  'wildlife':
+    name: 'Wildlife'
+
+  'pandemic': 
+    name: 'Pandemic'
+    children: 
+      - 'coronavirus'
+      - 'covid-19'
+      - 'disease'
+      - 'vaccines'
+
+  'coronavirus':
+    name: 'Coronavirus'
+
+  'covid-19':
+    name: 'Covid-19'
+
+  'disease':
+    name: 'Disease'
+
+  'vaccines':
+    name: 'Vaccines'
+
+  'science': 
+    name: 'Science'
+    children: 
+      - 'anthropology'
+      - 'archaeology'
+      - 'astronomy'
+      - 'astrophysics'
+      - 'biotechnology'
+      - 'chemistry'
+      - 'ecology'
+      - 'genetics'
+      - 'geology'
+      - 'neuroscience'
+      - 'math'
+      - 'medicine'
+      - 'physics'
+      - 'psychology'
+      - 'space'
+
+  'astronomy': 
+    name: 'Astronomy'
+
+  'astrophysics':
+    name: 'Astrophysics'
+
+  'archaeology':
+    name: 'Archaeology'
+
+  'biotechnology':
+    name: 'Biotechnology'
+
+  'chemistry':
+    name: 'Chemistry'
+
+  'ecology':
+    name: 'Ecology'
+
+  'genetics':
+    name: 'Genetics'
+
+  'geology':
+    name: 'Geology'
+
+  'medicine':
+    name: 'Medicine'
+
+  'neuroscience': 
+    name: 'Neuroscience'
+
+  'physics': 
+    name: 'Physics'
+
+  'space': 
+    name: 'Space'
+
+  'travel': 
+    name: 'Travel'
+    children: 
+      - 'tourism'
+      - 'travel-tips'
+      - 'travel-writing'
+      - 'vacation'
+
+  'tourism':
+    name: 'Tourism'
+
+  'travel-tips':
+    name: 'Travel Tips'
+
+  'travel-writing':
+    name: 'Travel Writing'
+
+  'vacation':
+    name: 'Vacation'

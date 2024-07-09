@@ -1,107 +1,101 @@
-<!-- admin/index.html -->
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Notes Admin</title>
+---
+title: Life in Weeks
+layout: fullscreen
+max_width: false
+---
 
-  </head>
-  <body>
-    <!-- Include the script that builds the page and powers Netlify CMS -->
-    <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
-		<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-  </body>
+{% assign data   = site.data[page.datafile] %}
 
-  <style>
-    @media (max-width: 799px) {
-      .css-1gj57a0-SidebarContainer-card {
-        position: static;
-        width: 100%;
-        margin-bottom: 30px;
-      }
-      .css-v758ki-AppMainContainer, .css-12b66la-AppHeaderContent {
-        min-width: 0;
-      }
-      .css-104dqk8-AppHeaderButton-button-buttonActive-buttonActive-buttonActive-buttonActive-AppHeaderButton, .css-12yqrwa-AppHeaderNavLink-AppHeaderButton-button-buttonActive-buttonActive-buttonActive-buttonActive-AppHeaderButton {
-        margin: 0;
-        padding: 16px 7px;
-      }
-      .css-1f7nhiq-CollectionMain {
-        padding-left: 0;
-      }
-      .css-1hvrgvd-CollectionTopContainer-card-cardTop {
-        width: 100%;
-      }
-      .css-16b5p1f-ToolbarSectionMain-toolbarSection {
-        flex-direction: column;
-        justify-content: space-evenly;
-      }
+{% assign start_date = page.start_date %}
+{% assign split_start = start_date | split: "-" %}
+{% assign start_year = split_start[0] %}
+{% assign start_month = split_start[1] %}
+{% assign start_day = split_start[2] %}
 
-      /* Media */
-      .css-1f3mf5k-StyledModal {
-        padding: 15px;
-        grid-template-rows: 190px auto;
-      }
-      .css-svjxk-SearchContainer {
-        display: block;
-        width: 100%;
-      }
-      .css-smzvtl-LibraryTop {
-        flex-direction: column;
-      }
-      .css-3ifd9s-ActionsContainer {
-        text-align: center;
-      }
-      .css-1ih1y1j-LibraryTitle {
-        margin-bottom: 15px;
-      }
-      .css-2ptjc9-UpperActionsContainer {
-        display: inline-block;
-      }
-      .css-1qukh7n-DownloadButton-button-default-disabled-button {
-        margin-left: 0;
-        margin-right: 0;
-      }
-      .css-13rmovq-StyledUploadButton-button-default-disabled-button-gray {
-        margin-left: 10px;
-      }
-      .css-1hpjyse-DeleteButton-button-default-disabled-button-lightRed {
-        margin-top: 10px;
-        margin-left: 0;
-        margin-right: 0;
-      }
-      .css-1s67tkf-InsertButton-button-default-disabled-button-green {
-        margin-top: 10px;
-        margin-left: 10px;
-      }
-      .css-16796rj-LowerActionsContainer {
-        display: inline-block;
-        margin-top: 0;
-      }
-      .css-stmjdx-CardGridContainer  {
-        position: static;
-        overflow: visible;
-        width: 100%;
-        padding-top: 20px;
-      }
-      /* End Media */
+{% assign end_year = page.end_year %}
+{% assign year_border_class = "border-secondary" %}
 
-      /* Blog */
-      .css-hn3jn7-EditorContainer {
-        min-width: 0;
-        padding-top: 100px;
-      }
-      .css-2oej7z-ToolbarContainer {
-        height: 100px;
-        width: 100%;
-        min-width: 0;
-      }
-      .css-osnbqe-ToolbarToggle {
-        flex-direction: column;
-      }
-      /* End Blog */
-    }
-  </style>
+<section class="life-in-weeks">
+	<div class="row justify-content-center">
+		<div class="col-12">
+		{% include header_fullscreen.html %}
+ 
+		{{content}}
+		</div>
+	</div>
 
-</html>
+	<div class="row justify-content-center">
+		<div class="col-12">
+			{% for year in (start_year..end_year) %}
+				{% capture this_year = year %}{{ year }}-{{ start_month }}-{{ start_day }}{% endcapture %}
+				{% capture next_year = year %}{{ year | plus: 1 }}-{{ start_month }}-{{ start_day }}{% endcapture %}
+				{% assign age = year | minus: start_year %}
+				{% assign age_modulo = age | modulo: 10 %}
+				{% if age_modulo == 0  %}
+			    <br clear="all" />
+			    <a name="decade-{{ age }}"></a>
+			    <div class="row text-left display-block w-100 mt-4">
+				    <div class="col sticky-top mt-1" style="top: 60px; background-color: #fff;"><h2 class="mt-0">
+				    	{% if page.suppress_decades %}
+				      {% elsif age == 0 %}
+				        My first ten years
+				      {% elsif age == 10 %}
+				        My teens
+				      {% elsif age == 100 %}
+				        Endgame
+				      {% else %}
+				        My {{ age }}s
+				      {% endif %}
+				    </h2></div>
+				  	</div>
+				{% endif %}  
+
+		    <div class="border border-gray {{ year_border_class }} float-left text-truncate" 
+		    		 style="height: 2em; max-height: 2em; padding: 2px 5px; margin: 2px;" 
+		    		 data-toggle="popover" 
+		    		 data-placement="right" 
+		    		 data-trigger="hover" 
+		    		 data-content="">
+		      {% unless page.suppress_age %}{{ age }} in {% endunless %}{{ year }}
+		    </div>
+
+		    {% for week in (0..53) %}
+			    {% assign week_border_class = "border-tertiary" %}
+			    {% assign week_modifier = 604800 | times: week %}
+			    {% assign this_week_date = this_year | date: "%s" | plus: week_modifier | date: "%Y-%m-%d" %}
+			    {% assign end_year_date = this_week_date | date: "%s" | plus: week_modifier | date: "%Y-%m-%d" %}
+
+		    	<div data-date="{{ this_week_date }}" class="week border {{ week_border_class }} float-left text-center text-truncate" 
+		    			 style="height: 2em; max-height: 2em; padding: 2px 5px; margin: 2px;">
+		    		{% for day in (0..6) %}
+					    {% assign day_modifier = 86400 | times: day %}
+		    			{% assign specific_date = this_week_date | date: "%s" | plus: day_modifier | date: "%Y-%m-%d" %}
+		    			{% if specific_date < next_year %}
+								{% for event in data[specific_date] %}
+									<a {% if event.link %}href="{{ event.link }}"{% endif %} title="{{ specific_date | date: "%b %-d, %Y" }}" target="_new" {% if event.desc %}data-toggle="popover" data-placement="auto"{% endif %} title="{{ specific_date }}" data-trigger="hover" data-content="{{ event.desc }}">{{ event.name }}</a>
+								{% endfor %}
+							{% endif %}
+		    		{% endfor %}
+		    	</div>
+		    {% endfor %}
+			{% endfor %}
+		</div>
+	</div>
+
+	<br clear="all" />
+
+	</p>
+</section>
+
+<script>
+	$(document).ready(function () {
+	  $(function () {
+			var today = new Date();
+			$( ".week" ).each(function( index ) {
+			  if (today < Date.parse($( this ).attr('data-date'))) {
+			  	$( this ).addClass('future-date');
+			  }
+			});
+	  })
+	});
+</script>

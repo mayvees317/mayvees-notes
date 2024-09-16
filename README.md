@@ -5,7 +5,7 @@ Installation
 Prerequisite:
 Ruby 2.7.7
 
-Install imagemagick
+### Install imagemagick
 ```code
 brew install imagemagick
 
@@ -15,4 +15,12 @@ gem list | grep rmagick
 
 bundle install
 
-bundle exec jekyll serve```
+bundle exec jekyll serve
+```
+
+### Update new version
+```code
+git add .
+git commit -m "whatevever message"
+git push
+```

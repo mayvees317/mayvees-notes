@@ -1,98 +1,123 @@
 '1998-07-31': 
   - name: "I entered the world"
     desc: "Born in Thanh Hoa city in Viet Nam. July 31st is the birthday of Harry Potter as well. I'm a Tiger, at the same time a Leo, which constitutes my stubbornness and confidence"
+    category: "null"
 
 '2000-07-31':
   - name: "Almost died from an electric shock"
     desc: "Some point around this time when I was 2, I put my little finger in the socket, but my dad luckily pulled me back using a blanket and I was saved"
+    category: "null"
 
 '2003-08-01':
   - name: "My parents got our first house built"
     desc: "After all the sweat. Almost all furniture in our house was handmade by my dad (he's a mechanical engineer)"
+    category: "null"
 
 '2004-09-05':
   - name: "Started at Dien Bien 1 elementary school"
+    category: "null"
 
 '2008-07-15':
   - name: "Suffered from a convulsion"
     desc: "While playing tag game with my friends. Mom was in another city for studying but had to cancel to go home for me. I never want sacrifice to be an option"
+    category: "null"
 
 '2009-09-05':
   - name: "Started at Tran Mai Ninh secondary school"
+    category: "null"
 
 '2011-11-05':
   - name: "Got my first bestie"
     desc: "As I hated my deskmate so I had to move next to her"
+    category: "null"
 
 '2012-10-15':
   - name: "My brother got his job in Japan"
     desc: "Proud of him. And yeah definitely he bought me so many stuff, e.g. iPod Shuffle muahaha"
+    category: "null"
 
 '2013-05-31':
   - name: "Graduated from Tran Mai Ninh secondary school"
+    category: "null"
 
 '2013-09-05':
   - name: "Started at Lam Son high school for the gifted"
     desc: "Specialized in English. We got salary every month"
+    category: "null"
 
 '2015-01-20':
   - name: "Got no prize in National competition"
     desc: "For gifted students in English. Decided to drop out next year to study math"
+    category: "null"
 
 '2015-04-20':
   - name: "Earned my first money"
     desc: "For giving a presentation at our school for Korean visitors, gave all to my mom to keep"
+    category: "null"
 
 '2015-06-18':
   - name: "My grandpa passed away"
     desc: "Peacefully, on a summer day. He was a doctor, and my role model of resilience and integrity"
+    category: "null"
 
 '2016-07-19': 
   - name: "Got on newspapers"
     desc: "For 10/10 in Math in National exam to university"
+    category: "null"
     link: "https://vnexpress.net/ba-nu-sinh-cung-lop-chuyen-anh-gianh-diem-10-mon-toan-3440253.html"
 
 '2016-09-05':
   - name: "Started at Foreign Trade University"
     desc: "Majored in Accounting & Auditing (ACCA oriented)"
+    category: "null"
 
 '2016-10-09':
   - name: "Got in HRC at FTU"
     desc: "A club that gave me work like a real company, and helped me realize my love for digital products"
+    category: "null"
 
 '2017-02-26':
   - name: "My bestie on The Voice Vietnam's stage"
+    category: "null"
     link: "https://www.youtube.com/watch?v=WXqbgotjYtA"
 
 '2017-11-01':
   - name: "Decided auditing was not for me"
     desc: "Just felt like my parents' money was wasted"
+    category: "null"
 
 '2018-01-09':
   - name: "Graphic designer intern at Ogilvy"
     desc: "And quit quickly after. I came to the office not frequently, due to my uni schedule, and at the same time realized I love UI/UX more"
+    category: "null"
 
 '2018-03-18':
   - name: "My brother got his apartment"
     desc: "From his own money. For a basic family like us, it's something we always dreamt of"
+    category: "null"
 
 '2018-09-27':
   - name: "Got my first viral post on Medium"
     desc: "Which earned me a lot of new connections to start my career"
+    category: "null"
     link: "https://medium.com/uxpress/my-friends-say-spotify-sux-so-i-took-a-look-at-its-ux-5741f3e5d99f"
 
 '2019-03-01':
   - name: "UX researcher @Onteractive"
     desc: "First job in the direction I chose"
+    category: "null"
 
 '2019-05-07':
   - name: "Told my mom to stop sending money"
     desc: "As she retired, and my salary was enough"
+    category: "null"
 
 '2019-05-19':
   - name: "❤️"
     desc: "First relationship"
+    category: "null"
 
 '2019-06-19': 
   - name: "Product Intern @VNG"
     desc: "In conjunction with SEO Vietnam's program. Moved to HCM city for 3 months and loved the atmosphere there"
+    category: "null"

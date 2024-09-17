@@ -13,7 +13,9 @@
 	<script>
 		$(document).ready(function () {
 			$(function () {
-				$("a[data-toggle='popover']").popover()
+				document.querySelectorAll("a[data-toggle='popover']").forEach(function (element) {
+					new bootstrap.Popover(element);
+				});
 			})
 		});
 	</script>

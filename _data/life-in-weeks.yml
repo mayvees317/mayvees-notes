@@ -1,5 +1,5 @@
 '1998-07-31': 
-  - name: "I enter the world"
+  - name: "I entered the world"
     desc: "Born in Thanh Hoa city in Viet Nam. July 31st is the birthday of Harry Potter as well. I'm a Tiger, at the same time a Leo, which constitutes my stubbornness and confidence"
 
 '2000-07-31':
@@ -57,19 +57,24 @@
     desc: "Majored in Accounting & Auditing (ACCA oriented)"
 
 '2016-10-09':
-  - name: "Got in HRC at FTU"
+  - name: "🧳 Joined HRC at FTU"
     desc: "A club that gave me work like a real company, and helped me realize my love for digital products"
+    link: "https://hrc.com.vn/"
 
 '2017-02-26':
   - name: "My bestie on The Voice Vietnam's stage"
     link: "https://www.youtube.com/watch?v=WXqbgotjYtA"
+
+'2017-03-08':
+  - name: "First tattoo"
+    desc: "On my left wrist, meaning Fall down one time, stand up two"
 
 '2017-11-01':
   - name: "Decided auditing was not for me"
     desc: "Just felt like my parents' money was wasted"
 
 '2018-01-09':
-  - name: "Graphic designer intern at Ogilvy"
+  - name: "🧳 Graphic designer intern at Ogilvy"
     desc: "And quit quickly after. I came to the office not frequently, due to my uni schedule, and at the same time realized I love UI/UX more"
 
 '2018-03-18':
@@ -105,5 +110,88 @@
   - name: "🧳 Left job @Onteractive"
 
 '2020-06-29': 
+  - name: "First COVID case in Viet Nam"
+
+'2020-06-29': 
   - name: "🤷‍♀️ Finalist of a startup competition"
     desc: "Kawai Business Startup, with 3 other friends. We pitched a solution to convert speech to text to aid meetings, school lectures (similar to Otter.ai)"
+
+'2020-07-25': 
+  - name: "🧳 UX Designer @One Mount group"
+
+'2021-06-18': 
+  - name: "🎧 Launched our podcast"
+    desc: "Just normal friend conversations about normal things in life"
+    link: "https://open.spotify.com/show/2GUqWLgKo2DLOiJe1x9YzX"
+
+'2021-08-03': 
+  - name: "💔"
+
+'2021-09-20': 
+  - name: "🎧 Our podcast got in top 50 podcasts in Viet Nam"
+
+'2021-12-22': 
+  - name: "🥁 First drum lesson"
+    link: "https://www.facebook.com/mayvees17/videos/459645869126503"
+
+'2022-03-19': 
+  - name: "📷 Got my Fuji X100F"
+    desc: "And changed my goal in life to having a camera and travelling to a new country every year"
+
+'2022-03-31': 
+  - name: "🧳 Left One Mount"
+
+'2022-04-10': 
+  - name: "🧳 Joined Wetaus"
+    desc: "Metaverse for music performance"
+
+'2022-08-19': 
+  - name: "❤️"
+
+'2022-09-01': 
+  - name: "✈️ Trip to Singapore"
+
+'2022-12-31': 
+  - name: "🧳 Wetaus failed"
+
+'2023-02-01': 
+  - name: "🧳 Same team, new try with Caroot"
+
+'2023-02-12': 
+  - name: "Disc herniation, scoliosis"
+
+'2023-04-01': 
+  - name: "🧳 Caroot failed"
+
+'2023-06-23': 
+  - name: "🧳 Same team, launched SaveDay on Product Hunt"
+    desc: "And got product of the day badge"
+
+'2023-09-27': 
+  - name: "🧳 Launched SaveDay extension"
+
+'2023-10-16': 
+  - name: "🎸 First guitar lesson"
+
+'2023-12-26': 
+  - name: "SaveDay got 10,000 users"
+
+'2024-04-22': 
+  - name: "Damn, uterine fibroid"
+
+'2024-05-13': 
+  - name: "✈️ Trip to Taiwan"
+    desc: "Taipei, Taichung"
+
+'2024-07-31': 
+  - name: "💔"
+
+'2024-08-10':
+  - name: "？ Guess what"
+
+'2024-09-01':
+  - name: "First time f2f with mom"
+    desc: "About love, marriage and things. Realized she was really open. We just did not have a chance to talk all these years and our emotions got buried"
+
+'2024-08-22':
+  - name: "SaveDay sold $14K on AppSumo"

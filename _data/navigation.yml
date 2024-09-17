@@ -2,27 +2,12 @@ links:
 - title: Buster's Notes
   url: /
   layout: post
-- title: The Piles
-  url: /piles
-  layout: piles
-- title: Annual Reviews
-  url: /pile/year-in-review
-  tag: year-in-review
 - title: My Life in Weeks
   url: /life-in-weeks
   layout: life-in-weeks
-- title: Quirky Clock
-  url: /clock
-  layout: life-in-weeks
-- title: Codex Vitae
-  url: /codex
-  layout: codex
 - title: My Book
   url: https://buster.medium.com/hello-this-is-my-book-b6aab9415f64
   layout: life-in-weeks
-- title: About
-  url: /about
-  layout: about
 - title: RSS
   url: /atom.xml
   layout: rss

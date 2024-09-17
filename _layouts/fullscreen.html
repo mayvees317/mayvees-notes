@@ -12,10 +12,11 @@
 
 	<script>
 		document.addEventListener("DOMContentLoaded", function () {
-			document.querySelectorAll("a[data-toggle='popover']").forEach(function (element) {
-				new bootstrap.Popover(element);
-			});
+			$(function () {
+				$("[data-toggle='popover']").popover()
+			})
 		});
+
 	</script>
 </body>
 

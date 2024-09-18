@@ -28,7 +28,7 @@
   <meta property="og:description"
     content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <meta property="og:url" content="{{ page.base_path | absolute_url }}">
   <meta property="og:image" content="/assets/og-image.jpg">
 
   <!-- Twitter Card Meta Tags -->
@@ -65,7 +65,7 @@
   <script src="{{ site.base_path }}/assets/js/chimera.js"></script>
 
   <script src="{{ site.base_path }}/assets/js/suncalc.js"></script>
-  <script src="{{ '{{ site.base_path }}/assets/js/lazysizes.min.js'| absolute_url }}"></script>
+  <script src="{{ '/assets/js/lazysizes.min.js'| absolute_url }}"></script>
 
   <!-- Use this for default style
    <style>
